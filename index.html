@@ -23,8 +23,8 @@
 </style>
 </head>
 
-<body class="px-[20px]">
-
+<body>
+    <div class="px-2">
         <!-- Banner section -->
 
         <section class="grid grid-cols-1 lg:grid-cols-2 container mx-auto ">
@@ -158,14 +158,14 @@
 
 
         <!-- News & Events section -->
-         <section class="container mx-auto">
+         <section class="container mx-auto mb-[130px]">
             <!-- Events header -->
             <div class="text-center space-y-7 mb-[50px]">
                 <h2 class="text-[45px] font-bold">News & Events</h2>
                 <p class="text-[#777777 font-semibold]">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, <br> by injected humour, or randomized words which don't look even slightly believable.</p>
             </div>
             <!-- Events cards -->
-            <div class=" grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-y-3 justify-between justify-items-center mb-[130px] ">
+            <div class=" grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-y-3 justify-between justify-items-center ">
                 <!-- Events card-->
                 <div class="border border-[#d2d2d2] rounded-[10px] w-[290px] sm:w-[364px] h-[448px] p-[22px] ">
                     <img src="./images/news-1.png" alt="" class="mb-5">
@@ -191,7 +191,62 @@
                     <h3 class="text-[#1c1c1c] font-bold">Learn More</h3>
                 </div>
             </div>
-         </section>
+        </section>
+        </div>
+
+        <!-- Footer section -->
+        <footer class="bg-[#ffefe9] px-2">                    
+        <div class="container mx-auto">
+            <!-- Footer top -->
+            <div class="flex justify-between items-center py-[60px]">
+                 <img src="./images/cup.png" alt="">
+                 <div class=" flex items-center gap-[60px]">
+                     <p class="text-[20px] font-medium  text-[#494949] hidden md:block">Ready to get started?</p>
+                     <button class="py-3 px-5 rounded-md text-white font-semibold bg-linear-to-r from-[#ff8938] to-[#ff0000]">Get Started</button>
+                    </div>
+            </div>
+
+            <!-- Footer Links -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-[25px] text-center md:text-left ">
+                <ul class=" space-y-5">
+                    <li class="text-[20px] font-semibold text-[#1c1c1c]">Quick Links</li>
+                    <li><a href="" class="text-[#494949]">Home</a></li>
+                    <li><a href="" class="text-[#494949]">About Us</a></li>
+                    <li><a href="" class="text-[#494949]">Insurance</a></li>
+                    <li><a href="" class="text-[#494949]">Privacy Policy</a></li>
+                </ul>
+                <ul class=" space-y-5">
+                    <li class="text-[20px] font-semibold text-[#1c1c1c]">Our Service</li>
+                    <li><a href="" class="text-[#494949]">Life Insurance</a></li>
+                    <li><a href="" class="text-[#494949]">Car Insurance</a></li>
+                    <li><a href="" class="text-[#494949]">Health Insurance</a></li>
+                    <li><a href="" class="text-[#494949]">House Insurance</a></li>
+                </ul>
+                <ul class=" space-y-5">
+                    <li class="text-[20px] font-semibold text-[#1c1c1c]">Help</li>
+                    <li><a href="" class="text-[#494949]">FAQs</a></li>
+                    <li><a href="" class="text-[#494949]">Contact Us</a></li>
+                </ul>
+                <div class="space-y-5">
+                    <h2 class="font-semibold text-3xl">Subscribe to our newsletter</h2>
+                    <div class="flex gap-2 ">
+                    <input type="text" placeholder="Email address" class="border-b-2 pb-2 outline-none w-full">
+                    <button class=" h-8 w-8 rounded-full text-white font-semibold bg-linear-to-r from-[#ff8938] to-[#ff0000]"><span><i class="fa-solid fa-angle-right"></i></span></button>
+                    </div>
+
+                    <div class="flex gap-5">
+                        <span><i class="fa-brands fa-facebook-f"></i></span>
+                        <span><i class="fa-brands fa-twitter"></i></span>
+                        <span><i class="fa-brands fa-instagram"></i></span>
+                    </div>
+
+                </div>
+            </div>
+            <!-- Footer Bottom -->
+             <p class="font-medium text-center py-[60px] text-[#494949]">© 2027 UIDesign.to - All rights reserved.</p>
+            
+        </div>
+        </footer>
     
 
 </body>
